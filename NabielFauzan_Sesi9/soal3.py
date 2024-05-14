@@ -3,10 +3,7 @@
 # Input: kata = ["apel", "jeruk", "mangga", "pisang", "anggur", "durian"]
 # Output: ['anggur', 'durian', 'jeruk', 'mangga', 'pisang']
 
-arr1 = ["apel", "jeruk", "mangga", "pisang", "anggur", "durian"]
-
-for i in range (len(arr1)):
-    if arr1[i] < 5:
-        arr1[i]
-
-print(arr1)
+word_int = ["Apel", "Jeruk", "Mangga", "Pisang", "Anggur", "Durian"]
+word_int.sort()
+word_int.pop(1)
+print("Output : ", word_int)
